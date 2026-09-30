@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sumit Mishra — Cinematographer & Editor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#16214a;--bg2:#1d2b5f;--ink:#efe8d6;--mute:#b3b6cc;--acc:#f0b429;--red:#d9502f;--line:rgba(239,232,214,.22);
+ --hd:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;--bd:"Source Serif 4",Georgia,serif;
+ box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f1ecdf;--bg2:#e6dfcd;--ink:#16214a;--mute:#4b5378;--acc:#b8540f;--red:#b8391b;--line:rgba(22,33,74,.25)}}
+:root[data-theme="light"]{--bg:#f1ecdf;--bg2:#e6dfcd;--ink:#16214a;--mute:#4b5378;--acc:#b8540f;--red:#b8391b;--line:rgba(22,33,74,.25)}
+:root[data-theme="dark"]{--bg:#16214a;--bg2:#1d2b5f;--ink:#efe8d6;--mute:#b3b6cc}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.125rem/1.65 var(--bd)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--acc);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 clamp(1.1rem,4vw,2.5rem)}
+nav{display:flex;justify-content:space-between;align-items:center;padding:1.2rem 0;font:700 .95rem var(--hd)}
+nav .l{display:flex;gap:1.4rem;flex-wrap:wrap}
+nav a{text-decoration:none}nav a:hover{color:var(--acc)}
+h1,h2,h3{font-family:var(--hd);margin:0;line-height:1}
+h1{font-size:clamp(3.4rem,13vw,9.5rem);font-weight:800;letter-spacing:-.045em;margin-top:1.2rem}
+h1 span{display:block;color:var(--acc)}
+.lede{max-width:34rem;margin:1.6rem 0 2.2rem;color:var(--mute);font-size:1.2rem}
+h2{font-size:clamp(1.9rem,4.5vw,3rem);font-weight:800;letter-spacing:-.03em;margin-bottom:1.4rem}
+section{padding:clamp(3rem,8vw,6rem) 0;border-top:1px solid var(--line)}
+.scope{position:relative;aspect-ratio:2.39/1;background:#000;overflow:hidden;border-radius:2px}
+.scope video,.scope img{width:100%;height:100%;object-fit:cover;display:block}
+.tc{display:flex;justify-content:space-between;gap:1rem;font:700 .85rem var(--hd);color:var(--mute);padding:.6rem 0;font-variant-numeric:tabular-nums}
+.tc b{color:var(--red)}
+.feat-text{max-width:44rem;margin-top:1.2rem}.feat-text p{color:var(--mute);margin:.6rem 0}
+.work{display:grid;grid-template-columns:1fr;gap:clamp(2.5rem,6vw,4.5rem)}
+.piece{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(1.2rem,3vw,2.5rem);align-items:start}
+.piece.alt{grid-template-columns:1fr 1.5fr}.piece.alt .vid{order:2}
+.vid video{width:100%;aspect-ratio:16/9;background:#000;display:block;object-fit:cover}
+.vid.feat video{aspect-ratio:2.39/1}
+h3{font-size:1.75rem;font-weight:700;letter-spacing:-.02em;margin-bottom:.7rem;line-height:1.1}
+.meta{font:700 .9rem var(--hd);color:var(--acc);margin:0 0 .9rem}
+.piece p{margin:.6rem 0;color:var(--mute)}
+.piece p strong{color:var(--ink);font-weight:600}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:clamp(1.5rem,5vw,4rem)}
+.two h3{margin-bottom:.9rem}
+ul.plain{list-style:none;margin:0;padding:0}
+ul.plain li{padding:.65rem 0;border-bottom:1px solid var(--line)}
+ul.plain li span{display:block;color:var(--mute);font-size:1rem}
+.clients{display:flex;flex-wrap:wrap;gap:.7rem}
+.clients span{border:1px solid var(--line);padding:.55rem 1rem;font:700 1.05rem var(--hd);border-radius:999px}
+.big{font:800 clamp(1.6rem,5vw,3.4rem)/1.1 var(--hd);letter-spacing:-.03em;word-break:break-word}
+.big a{text-decoration:none;border-bottom:4px solid var(--acc)}
+.big a:hover{color:var(--acc)}
+footer{padding:2rem 0 3rem;color:var(--mute);font-size:.95rem;border-top:1px solid var(--line)}
+@media (max-width:760px){.piece,.piece.alt,.two{grid-template-columns:1fr}.piece.alt .vid{order:0}.scope,.vid.feat video{aspect-ratio:16/9}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+ <nav aria-label="Primary"><strong>Sumit Mishra</strong><div class="l"><a href="#work">Work</a><a href="#craft">Craft</a><a href="#clients">Clients</a><a href="#contact">Contact</a></div></nav>
+ <header>
+  <h1>Sumit Mishra<span>Cinematographer &amp; editor</span></h1>
+  <p class="lede">Six years behind the camera and in the edit suite, shooting festivals, news and cultural events across Nepal and India.</p>
+  <div class="scope"><video src="videos/bhoomi-aftermovie.mp4" poster="images/bhoomi.jpg" muted playsinline preload="metadata" controls></video></div>
+  <div class="tc"><span>Bhoomi Folk Festival 2023 · Aftermovie</span><span><b>●</b> Janakpur, Nepal</span></div>
+  <div class="feat-text"><h3>Bhoomi Folk Festival 2023: official aftermovie</h3>
+  <p class="meta">Cinematography · Editing · Janakpur, Nepal</p>
+  <p>The first edition of Bhoomi Folk Festival, cut into a film. It moves from the road into Janakpur to a street vendor at her cart, then into the festival: dholak players, dancers in red-and-white costume on the sand, and a crowd pressed against the barricades.</p>
+  <p>After dark the film shifts to stage light and packed audiences, and closes on the sponsor roll. The full film runs a little over two minutes.</p></div>
+ </header>
+</div>
+
+<section id="work"><div class="wrap">
+ <h2>Selected work</h2>
+ <div class="work">
+  <article class="piece">
+   <div class="vid"><video controls playsinline preload="metadata" src="videos/gff-noida-day2.mp4" poster="images/gff.jpg"></video></div>
+   <div>
+    <h3>19th Global Film Festival Noida: Day 2</h3>
+    <p class="meta">Event coverage · AAFT, Noida · 1080p source</p>
+    <p>A run through the second day of the festival at AAFT. A brass band plays at the entrance, the festival's film-reel installation greets arrivals, and a photo exhibition draws visitors in.</p>
+    <p>Inside, the coverage moves to the lit stage: dignitaries at the podium, a live conga performance and the crowd between sessions. <strong>Handheld and gimbal-style coverage that keeps pace with a busy venue.</strong></p>
+   </div>
+  </article>
+  <article class="piece alt">
+   <div class="vid"><video controls playsinline preload="metadata" src="videos/gffn-noida-day2-highlights.mp4" poster="images/gffn.jpg"></video></div>
+   <div>
+    <h3>Global Film Festival Noida: Day 2 highlights</h3>
+    <p class="meta">Highlights edit · AAFT, Noida · 1080p source</p>
+    <p>A tighter highlights edit of the same day. It follows the festival's key moments: the welcome on stage, the panel conversation, a ribbon-cutting at the exhibition and a student vocal performance.</p>
+    <p>Wide frames of the hall alternate with close portraits of speakers and performers. <strong>Built to give organisers a shareable recap the same week.</strong></p>
+   </div>
+  </article>
+ </div>
+</div></section>
+
+<section id="craft"><div class="wrap">
+ <h2>Craft</h2>
+ <div class="two">
+  <div>
+   <h3>What I shoot and cut</h3>
+   <ul class="plain">
+    <li>Cinematography<span>Festivals, live events, news and documentary reporting.</span></li>
+    <li>Editing<span>Aftermovies, highlight reels and multimedia news packages.</span></li>
+    <li>Aerial and moving shots<span>Drone and gimbal coverage for scale and movement.</span></li>
+   </ul>
+  </div>
+  <div>
+   <h3>Equipment</h3>
+   <ul class="plain">
+    <li>ARRI cameras</li>
+    <li>Drone</li>
+    <li>Gimbal</li>
+   </ul>
+  </div>
+ </div>
+</div></section>
+
+<section id="clients"><div class="wrap">
+ <h2>Worked with</h2>
+ <div class="clients"><span>AAFT</span><span>BBC News</span><span>News Nation</span><span>Ministry of Tourism</span></div>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2>Have a shoot in mind?</h2>
+ <p class="big"><a href="mailto:sumitmishra21031@gmail.com">sumitmishra21031@gmail.com</a></p>
+ <p style="margin-top:1.4rem">Phone: <a href="tel:+919204649033">+91 92046 49033</a> · Based in New Delhi, working across Nepal and India</p>
+</div></section>
+<footer><div class="wrap">© Sumit Mishra. Videos shown here are shortened web previews.</div></footer>
+</body>
+</html>
